@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Kanit";
+    src: url('./../../fonts/Kanit-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('./../../fonts/Roboto-Regular.ttf');
+}
+
+.headerbar {
+    width: 1440px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: #141D2F;
+    backdrop-filter: blur(32.5px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 774px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        width: 150px;
+        font-weight: 35.03px;
+        color: white;
+        padding-left: 100px;
+        font-family: "Kanit";
+        margin: 0;
+    }
+}
+
+.header-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 29px;
+    width: 326px;
+    height: 32px;
+    padding-right: 100px;
+    a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 120%;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: #00BEE8;
+            transition: all 225ms ease-in-out;
+        }
+    }
+}
