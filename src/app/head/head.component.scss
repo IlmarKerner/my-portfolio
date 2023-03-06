@@ -178,10 +178,31 @@
 
 .home-footer-shadow {
     position: absolute;
-    height: 608px;
-    top: 594px;
+    height: 715px;
+    top: 680px;
     right: 0px;
     z-index: 3;
     width: 300px;
     overflow: hidden;
+}
+
+.scroll-down {
+    position: absolute;
+    right: 10px;
+    top: 700px;
+    transform: rotate(90deg);
+    z-index: 5;
+    a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 120%;
+        text-decoration: none;
+        color: white;
+    }
+    &:hover {
+        transform: scale(1.2);
+        transition: all 125ms ease-in-out;
+    }
 }

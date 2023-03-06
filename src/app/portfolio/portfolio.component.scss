@@ -1,0 +1,30 @@
+.header-portfolio {
+    background: #141D2F;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    h1 {
+        width: 389px;
+        height: 108px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+
+.line4 {
+    position: absolute;
+    right: 0;
+}
+
+.line5 {
+    position: absolute;
+    left: 380px;
+}
