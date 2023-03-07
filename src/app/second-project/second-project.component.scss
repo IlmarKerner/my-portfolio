@@ -1,0 +1,132 @@
+.second-project {
+    width: 1440px;
+    height: 600px;
+    background: #141D2F;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.second-project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 35px;
+    position: absolute;
+    width: 1168px;
+    height: 339.19px;
+    left: 100px;
+    img {
+        width: 480px;
+        height: 417px;
+    }
+}
+
+.second-project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 35px;
+    width: 513px;
+    height: 282px;
+    h2 {
+        height: 42.82px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: #4B47FF;
+        margin: 0;
+    }
+    h3 {
+        height: 31.55px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 120%;
+        color: #00BEE8;
+        margin: 0;
+    }
+    p {
+        width: 513px;
+        height: 57px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: right;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+
+.second-project-buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 0px;
+    gap: 86px;
+    width: 375px;
+    height: 65.36px;
+    top: 300px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.second-live-test {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 152px;
+    height: 58px;
+    background: #4B47FF;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    &:hover {
+        background: #00BEE8;
+        transition: all 125ms ease-in-out;
+    }
+}
+
+.second-github {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    width: 137px;
+    height: 58px;
+    border: 1px solid #00BEE8;
+    border-radius: 10px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    &:hover {
+        background: #00BEE8;
+        transition: all 125ms ease-in-out;
+    }
+}
