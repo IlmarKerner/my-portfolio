@@ -1,5 +1,5 @@
 .my-skills-container {
-    height: 600px;
+    height: 500px;
     width: 1440px;
     background: #141D2F;
     position: relative;
@@ -16,6 +16,7 @@
     width: 721px;
     height: 414.41px;
     left: 100px;
+    z-index: 3;
 }
 
 .first-skillline {
@@ -146,5 +147,14 @@
 }
 
 .green-shadow {
-    width: 121px;
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+    direction: rtl;
+    img {
+        position: absolute;
+    }
 }
