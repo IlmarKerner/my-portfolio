@@ -1,4 +1,4 @@
-.second-project {
+.fourth-project {
     width: 1440px;
     height: 600px;
     background: #141D2F;
@@ -7,26 +7,20 @@
     align-items: center;
 }
 
-.second-project-container {
+.fourth-project-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px;
     gap: 35px;
     position: absolute;
     width: 1168px;
     height: 339.19px;
     left: 100px;
-    z-index: 3;
-    img {
-        width: 385px;
-        height: 417px;
-        margin-right: 113px;
-    }
 }
 
-.second-project-description {
+.fourth-project-description {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -34,7 +28,7 @@
     padding: 0px;
     gap: 35px;
     width: 513px;
-    height: 282px;
+    height: 267px;
     h2 {
         height: 42.82px;
         font-family: 'Poppins';
@@ -69,7 +63,7 @@
     }
 }
 
-.second-project-buttons {
+.fourth-project-buttons {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -83,7 +77,7 @@
     }
 }
 
-.second-live-test {
+.fourth-live-test {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -106,7 +100,7 @@
     }
 }
 
-.second-github {
+.fourth-github {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;

@@ -10,6 +10,11 @@ import { MySkillsComponent } from './my-skills/my-skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FirstProjectComponent } from './first-project/first-project.component';
 import { SecondProjectComponent } from './second-project/second-project.component';
+import { ThirdProjectComponent } from './third-project/third-project.component';
+import { FourthProjectComponent } from './fourth-project/fourth-project.component';
+import { FifthProjectComponent } from './fifth-project/fifth-project.component';
+import { ContactComponent } from './contact/contact.component';
+import { ContactContainerComponent } from './contact-container/contact-container.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { SecondProjectComponent } from './second-project/second-project.componen
     MySkillsComponent,
     PortfolioComponent,
     FirstProjectComponent,
-    SecondProjectComponent
+    SecondProjectComponent,
+    ThirdProjectComponent,
+    FourthProjectComponent,
+    FifthProjectComponent,
+    ContactComponent,
+    ContactContainerComponent
   ],
   imports: [
     BrowserModule,

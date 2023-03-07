@@ -1,4 +1,4 @@
-.second-project {
+.fifth-project {
     width: 1440px;
     height: 600px;
     background: #141D2F;
@@ -7,35 +7,30 @@
     align-items: center;
 }
 
-.second-project-container {
+.fifth-project-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
     padding: 0px;
     gap: 35px;
     position: absolute;
     width: 1168px;
     height: 339.19px;
-    left: 100px;
+    left: 172px;
     z-index: 3;
-    img {
-        width: 385px;
-        height: 417px;
-        margin-right: 113px;
-    }
 }
 
-.second-project-description {
+.fifth-project-description {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: flex-start;
     padding: 0px;
     gap: 35px;
     width: 513px;
-    height: 282px;
+    height: 339.19px;
     h2 {
+        width: 196px;
         height: 42.82px;
         font-family: 'Poppins';
         font-style: normal;
@@ -46,7 +41,8 @@
         margin: 0;
     }
     h3 {
-        height: 31.55px;
+        width: 488px;
+        height: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -63,13 +59,11 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 120%;
-        text-align: right;
         color: #FFFFFF;
-        margin: 0;
     }
 }
 
-.second-project-buttons {
+.fifth-project-buttons {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -83,7 +77,7 @@
     }
 }
 
-.second-live-test {
+.fifth-live-test {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -106,7 +100,7 @@
     }
 }
 
-.second-github {
+.fifth-github {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -131,4 +125,10 @@
         background: #00BEE8;
         transition: all 125ms ease-in-out;
     }
+}
+
+.blue-shadow2 {
+    position: absolute;
+    right: 0;
+    z-index: 2;
 }
